@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "hello-world-sam-app2"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1ivrh65lxfocw"
+s3_prefix = "hello-world-sam-app2"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+
